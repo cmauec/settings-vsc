@@ -29,6 +29,12 @@
 			"tab.hoverForeground": "#ffffff"
 		},
 		"editor.stickyScroll.enabled": true,
-		"workbench.editor.tabSizing": "shrink"
+		"workbench.editor.tabSizing": "shrink",
+		// "python.formatting.provider": "black",
+		// "python.formatting.blackArgs": [
+		// 	"--line-length",
+		// 	"79"
+		// ],
+		// "editor.formatOnSave": true
 	}
 }
