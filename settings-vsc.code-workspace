@@ -10,6 +10,7 @@
 		"python.linting.pep8Enabled": true,
 		"python.linting.flake8Enabled": true,
 		"python.linting.banditEnabled": true,
+		// "python.linting.mypyEnabled": true,
 		"python.envFile":"${workspaceFolder}/.env",
 		// "editor.fontFamily": "Fira Code",
 		"editor.fontFamily": "Victor Mono",
@@ -35,6 +36,9 @@
 		// 	"--line-length",
 		// 	"79"
 		// ],
-		// "editor.formatOnSave": true
+		// "editor.formatOnSave": true,
+		// "[python]": {
+		// 	"editor.defaultFormatter": "ms-python.black-formatter"
+		// }
 	}
 }
