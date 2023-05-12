@@ -5,6 +5,10 @@
 		}
 	],
 	"settings": {
+		"editor.glyphMargin": false,
+		"scm.diffDecorationsGutterVisibility": "hover",
+		"editor.scrollbar.verticalScrollbarSize": 1,
+		// "editor.lineNumbers": "off",
 		"workbench.sideBar.location": "right",
 		// "workbench.editor.showTabs": false,
 		"editor.minimap.enabled": false,
@@ -26,6 +30,10 @@
 		// "editor.fontWeight": "600",
 		"editor.fontLigatures": true,
 		"editor.fontSize": 14,
+		"python.analysis.extraPaths": [
+			"${workspaceFolder}/path1",
+			"${workspaceFolder}/path2"
+		],
 		"files.watcherExclude": {
 			"**/env/**": true,
 			"**/.git/subtree-cache/**": true,
