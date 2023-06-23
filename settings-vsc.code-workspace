@@ -7,12 +7,12 @@
 	"settings": {
 		"editor.glyphMargin": false,
 		"scm.diffDecorationsGutterVisibility": "hover",
-		"editor.scrollbar.verticalScrollbarSize": 1,
+		"editor.scrollbar.verticalScrollbarSize": 5,
 		// "editor.lineNumbers": "off",
 		"workbench.sideBar.location": "right",
 		// "workbench.editor.showTabs": false,
 		"editor.minimap.enabled": false,
-		"editor.scrollbar.vertical": "hidden",
+		// "editor.scrollbar.vertical": "hidden",
 		"editor.overviewRulerBorder": false,
 		"editor.hideCursorInOverviewRuler": true,
 		"breadcrumbs.enabled": false,
@@ -44,16 +44,16 @@
 			"tab.hoverBackground": "#4f77c7d5",
 			"tab.hoverForeground": "#ffffff"
 		},
-		"editor.stickyScroll.enabled": true,
+		// "editor.stickyScroll.enabled": true,
 		"workbench.editor.tabSizing": "shrink",
 		// "python.formatting.provider": "black",
 		// "python.formatting.blackArgs": [
 		// 	"--line-length",
 		// 	"79"
 		// ],
-		// "editor.formatOnSave": true,
-		// "[python]": {
-		// 	"editor.defaultFormatter": "ms-python.black-formatter"
-		// }
+		"editor.formatOnSave": true,
+		"[python]": {
+			"editor.defaultFormatter": "ms-python.black-formatter"
+		}
 	}
 }
